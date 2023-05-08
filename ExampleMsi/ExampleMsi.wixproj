@@ -3,7 +3,6 @@
         <EnableProjectHarvesting>true</EnableProjectHarvesting>
         <HarvestProjectsVerboseOutput>true</HarvestProjectsVerboseOutput>
         <HarvestProjectsDirectoryIds>INSTALLFOLDER</HarvestProjectsDirectoryIds>
-        <SuppressIces>ICE40;ICE61</SuppressIces>
     </PropertyGroup>
     <ItemGroup>
         <HarvestProject Include="..\ExampleApp\ExampleApp.csproj" ProjectOutputGroups="Binaries;Content;Satellites" />
